@@ -1,0 +1,5 @@
+import numpy as np
+import matplotlib.pyplot as plt
+plt.plot(np.arange(-5, 5, 0.1), 1 / (1 + np.exp(-np.arange(-5, 5, 0.1))))
+plt.title('Visualization of the Sigmoid Function')
+plt.show()
